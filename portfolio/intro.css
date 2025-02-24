@@ -1,0 +1,381 @@
+*{
+margin: 0;padding: 0;
+}
+.topic{
+list-style: none;
+display: flex;
+column-gap: 15px;
+justify-content: center;
+background-color: grey;
+padding: 10px 0;
+}
+.topic li:hover{
+color: blue;
+cursor:pointer;
+}
+.logo img{
+width: 65px;
+height: 65px;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+h3{
+color:blueviolet;
+text-align: start;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 10px;
+}
+.emoji{
+display: flex;
+column-gap: 10px;
+}
+.emoji a {
+color: black;
+
+}
+.emoji a svg{
+width: 20px;
+height: 20px;
+}
+.emoji a:hover{
+color: blue;
+}
+.softskill{
+text-transform: capitalize;
+/* font-style: italic; */
+display: grid;
+justify-content: center;
+/* justify-items: center; */
+margin: 20px;
+padding-right: 20px;
+}
+.main{
+padding-top: 20px;
+padding-bottom: 10px;
+
+}
+.about-me p{
+width: 90%;
+text-align: justify;
+/* margin:  0 auto; */
+}
+.softskill img{
+/* margin: 15px; */
+border: 1px solid grey;
+border-radius: 10px;
+width: 100%;
+height: auto;
+min-width:300px;
+}
+.about-me{
+display: grid;
+justify-content: center;
+row-gap: 10px;
+padding: 10px;
+}
+.Education{
+display: grid;
+justify-content: space-between;
+text-transform: capitalize;
+margin: 20px;
+gap: 20px;
+border: 1px solid grey;
+padding: 15px;
+border-radius: 10px;
+
+}
+#edu{
+justify-content: start;
+}
+.Education p{
+width: 400px;
+text-align: justify;
+/* max-width: 60%; */
+}
+.Education h2{
+font-weight: 200px;
+}
+
+.heading{
+display: grid;
+justify-content: center;
+padding: 30px;
+text-transform: capitalize;
+color:rgb(17, 17, 218);
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    margin: 30px 0;
+
+}
+.icons img{
+width: 60px;
+height: 60px;
+}
+.dot{
+display: grid;
+}
+.experience{
+text-transform: capitalize;
+margin: 20px;
+}
+.experience h1{
+text-align: center;
+
+}
+.box p{
+width: 100%;
+text-align: justify;
+
+}
+.box{
+display: grid;
+justify-content: center;
+row-gap: 12px;
+
+}
+.skill{
+width: 100%;
+}
+.skill ul{ 
+display: flex;
+flex-wrap: wrap;
+gap: 6px;
+padding: 10px 0;
+
+}
+.skill ul li{
+list-style: none;white-space: nowrap;
+padding: 6px;
+border: 0.2px solid gray;
+border-radius: 6px;
+background-color: lightblue;
+font-size: 13.5px;
+}
+.head{
+border: 2px solid gray;
+border-radius: 10px;
+padding:20px;
+margin: 20px;
+display: grid;justify-content: center;
+row-gap: 20px;
+}
+.head h2{
+text-transform: capitalize;
+font-size: 20px;
+}
+.head p{
+text-transform: capitalize;
+justify-content: center;
+}
+.head ul{
+display: flex;
+column-gap: 12px;
+flex-wrap: wrap;
+}
+.head ul li{
+list-style: none; white-space:nowrap;
+border: 0.2px solid black;
+border-radius: 5px;
+padding:4px 4px;
+background-color: rgb(59, 59, 240);
+}
+.head img{
+border: 0.2px solid gray;
+border-radius: 10px;
+width: 300px;
+}
+.review-con{
+border: 2px solid gray;
+border-radius: 10px;
+padding:15px;
+margin: 20px;
+/* display: grid; */
+justify-content: center;
+text-transform: capitalize;
+}
+.top img{
+width:300px;
+height: auto;
+/* justify-content: center; */
+
+}
+.About{
+display:grid;
+row-gap: 10px;
+padding: 10px 0 ;
+}
+.About input{
+height: 28px;
+padding-left: 10px;
+border-radius: 6px;
+border: 1px solid rgb(20, 20, 20);
+}
+.About button{
+text-align: center;
+/* border: 0.01px solid gray ; */
+border: none;
+margin: 5px;
+border-radius: 6px;
+background-color:orangered;
+height: 28px;
+
+}
+.says p{
+/* text-align: center; */
+font-size: x-large;
+font-weight: 200px;
+display: grid;
+justify-items: center;
+justify-content: center;
+}
+.says{
+margin: 20px;
+padding: 20px;
+}
+.fa-star{
+color: orangered;
+}
+.review-box{
+/* text-align: center; */
+padding: 10px;
+border: 2px solid grey;
+overflow: hidden;
+border-radius: 7px;
+width: 200px;
+height: 270px;
+display: grid;
+row-gap: 20px;
+flex-shrink: 0;
+}
+.review-star{
+text-align: end;
+}
+.no1 p{
+text-align: justify;
+padding-top: 5px;
+
+}
+.whole{
+display: flex;
+margin: 20px 20px 80px 20px;
+column-gap: 20px;
+overflow: scroll;
+
+}
+
+
+.star{
+display: grid;
+justify-content: center;
+justify-items: center;
+row-gap: 10px;
+}
+.star p{
+font-weight: bold;
+font-size: 24px;
+padding-top: 10px;
+}
+.projects{
+display: grid;
+justify-content: center;
+margin: 0 60px;
+/* background-color: aqua; */
+}
+
+.skill ul{
+    display:flex;
+    justify-content: center;
+}
+
+@media (min-width:660px){
+.softskill{
+    display: flex;
+}
+.softskill .about-me{
+    display: grid;
+    align-content: center;
+}
+.head{
+    display: flex;
+}
+.align{
+    display: grid;
+    justify-content: center;
+}
+.Education{
+    display: flex;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media (max-width:450px){
+.logo h2{
+    font-size: 16px;
+}
+.logo img{
+    width: 45px;
+height: 45px;
+}
+.top img{
+    width: 300px;
+}
+
+}
+.says p{
+    display: flex;
+
+}
+.Education{
+    text-align: center;
+}
+@media( min-width:660px)and (max-width:1500px){
+ .icons{
+    display:flex;
+    justify-content: center;
+}
+.arran{
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+.commer{
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+.content{
+    display: grid;
+    margin: 10px;
+    justify-content: center;
+}
+.review-con{
+    display: flex;
+}
+.star{
+    margin: 20px;
+}
+}
+
+
+nav{
+position: sticky;
+top:0;
+background-color: whitesmoke;
+z-index: 200;
+}
+
